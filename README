@@ -1,0 +1,39 @@
+1)  Identifying	information:
+	- Names: Pranav Surampudi
+	- Student Emails: surampudi@chapman.edu
+	- Course: CPSC 380-02
+	- Assignment: Assignment 3
+
+2)  Source Files:
+	- Makefile
+	- book.txt
+	- rr-schedule.txt
+	- pri-schedule.txt
+	- schedule.txt
+	- cpu.h
+	- task.h
+	- schedulers.h
+	- schedule_fcfs.cpp
+	- schedule_sjf.cpp
+	- schedule_rr.cpp
+	- schedule_priority.cpp
+	- CPU.cpp
+	- driver.cpp
+
+
+5)  Instructions for running the assignment:
+	- To compile:
+		- make [SCHEDULE_TYPE]
+		- SCHEDULE_TYPE is one of the following:
+			- fcfs
+			- sjf
+			- priority
+			- rr
+	
+	- To run:
+	    - ./[SCHEDULE_TYPE] [FILE_NAME].txt
+        - FILE_NAME is one of the following:
+			- schedule.txt
+			- book.txt
+            - pri-schedule.txt
+            - rr-schedule.txt
